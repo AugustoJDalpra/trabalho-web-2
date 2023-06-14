@@ -1,0 +1,29 @@
+.menu {
+    display: flex;
+     background-color: rgb(52, 39, 92);
+}
+
+.menu ul li {
+    display: inline-block;
+    margin:  10px;
+    }
+    
+    .menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid #00ff88;
+    border-radius: 5px;
+    background-color: #00ff88;
+    transition: all 0.5s ease;
+    }
+    
+    .menu ul li a:hover {
+    background-color: #345746;
+    border:2px solid #345746;
+    color: #000000;
+    }
+
+   
