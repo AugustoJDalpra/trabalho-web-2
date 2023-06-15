@@ -1,0 +1,27 @@
+<div class="padrao">
+
+
+    <table>
+        <tbody>
+            <tr *ngFor="let funcionario of funcionariosList">
+                <div class="card">
+                    <div class="foto">
+                        <img src="{{ funcionario.foto }}">
+                    </div>
+                    <div class="infos">
+                        <p>{{ funcionario.nome }}</p>
+                        <p>{{ funcionario.subobjeto.propriedade1 }}</p>
+                        <p>{{ funcionario.subobjeto.propriedade2 }}</p>
+                    </div>
+                    <div class="email">
+                        <p><a href="mailto:{{funcionario.email}}">{{funcionario.email}}</a></p>
+                    </div>
+                </div>
+
+            </tr>
+        </tbody>
+    </table>
+
+
+
+</div>

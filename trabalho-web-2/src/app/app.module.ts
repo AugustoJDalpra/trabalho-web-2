@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './model/header/header.component';
-import { FooterComponent } from './model/footer/footer.component';
-import { HomeComponent } from './model/home/home.component';
-import { MenuComponent } from './model/menu/menu.component';
+import { HeaderComponent } from './view/header/header.component';
+import { FooterComponent } from './view/footer/footer.component';
+import { HomeComponent } from './view/home/home.component';
+import { MenuComponent } from './view/menu/menu.component';
+import { FuncionariosComponent } from './view/funcionarios/funcionarios.component';
+import { MainComponent } from './view/main/main.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { MenuComponent } from './model/menu/menu.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
+    FuncionariosComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

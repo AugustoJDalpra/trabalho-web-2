@@ -1,0 +1,38 @@
+.padrao {
+  width: 750px;
+  /* largura da div */
+  height: 100vh;
+  background-color: rgb(148, 150, 149);
+  height: 100%;
+  padding-left: 750px;
+}
+
+
+.card {
+  width: 250px;
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto {
+  background-color: black;
+}
+
+
+.infos {
+  padding: 10px;
+font-family: Arial, sans-serif;
+
+}
+
+.email {
+  padding: 10px;
+  font-family: Verdana, sans-serif;
+  background-color: gray;
+
+}

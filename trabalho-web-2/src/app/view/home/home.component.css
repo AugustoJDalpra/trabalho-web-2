@@ -1,11 +1,11 @@
-.home {
+.padrao {
   
-    width: 100%; /* largura da div */
-    height: 100%;
+    width: 750px; /* largura da div */
+    height: 100vh;
     margin: 0 auto; /* alinhar a div no centro da página */
     text-align: center; /* centralizar o texto dentro da div */
     padding: 20px; /* espaço interno da div para o texto */
-    font-size: 18px; /* tamanho do texto */
-    font-family: Arial, sans-serif; /* fonte do texto */
+    font-size: 20px; /* tamanho do texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* fonte do texto */
     color: #333; /* cor do texto */
   }
