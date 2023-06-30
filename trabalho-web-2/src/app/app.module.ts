@@ -9,6 +9,9 @@ import { HomeComponent } from './view/home/home.component';
 import { MenuComponent } from './view/menu/menu.component';
 import { FuncionariosComponent } from './view/funcionarios/funcionarios.component';
 import { MainComponent } from './view/main/main.component';
+import { Cadastro2Component } from './view/cadastro2/cadastro2.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,15 @@ import { MainComponent } from './view/main/main.component';
     HomeComponent,
     MenuComponent,
     FuncionariosComponent,
-    MainComponent
+    MainComponent,
+    Cadastro2Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
