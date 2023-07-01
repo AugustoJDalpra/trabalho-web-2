@@ -11,9 +11,9 @@ export class Cadastro2Component implements OnInit {
   public fg: FormGroup;
   public formValues: FormGroup;
   public formInsert: FormGroup;
-  public mesageDelete = 'Aqui conterá mensagem ao deletar';
+  public mesageDelete = 'Mensagem deletar';
   public color = 'primary';
-  public mesageInserir = 'Aqui conterá mensagem ao inserir';
+  public mesageInserir = 'Mensagem inserir';
   public colorInserir = 'primary';
 
   constructor(

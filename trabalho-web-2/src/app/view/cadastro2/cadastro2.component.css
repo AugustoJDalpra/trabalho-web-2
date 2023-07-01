@@ -6,36 +6,20 @@ body {
     margin-top: 90px;
   }
   
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  button {
-    border-radius: 10px;
-    background-color: black;
-    color: white;
-    margin: 10px;
-    width: 30%;
-  }
-  
-  button:hover {
-    background-color: white;
-    border-color: black;
-    color: black;
-  }
-  
   h1 {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Roboto", sans-serif;
   }
-  
+
   form {
     margin-bottom: 50px;
     display: flex;
     align-items: center;
   }
   
-  .field {
+  button {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(189, 29, 29);
+    margin: 10px;
+    width: 30%;
   }
